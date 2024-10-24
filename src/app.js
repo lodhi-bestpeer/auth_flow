@@ -36,7 +36,7 @@ app.use((req, res, next) => {
 });
 
 // Database Connection with Logging
-connectDB();
+// connectDB();
 
 app.use("/",(req, res)=>{
   res.status(200).json({
