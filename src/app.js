@@ -40,7 +40,8 @@ app.use((req, res, next) => {
 
 app.use("/",(req, res)=>{
   res.status(200).json({
-    message: "CICD is running successfully..."
+    message: "CICD is running successfully...",
+    name: "my name is sourabh"
   })
 })
 
